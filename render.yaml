@@ -1,0 +1,8 @@
+version: 1
+services:
+  - type: web
+    name: phpbb-forum
+    env: docker
+    docker:
+      dockerfilePath: ./Dockerfile
+    plan: free
